@@ -32,12 +32,13 @@ h2 {
     font-size: 30px;
 }
 
-.navi{
+.navi {
     background-color: rgb(232, 76, 76);
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
 }
+
 ul {
     list-style-type: none;
 }
@@ -75,37 +76,54 @@ p {
     width: 70%;
     float: left;
     background-color: rgba(255, 255, 255, 0.953);
-    
+
 }
 
 .kuva2 img {
     width: 20%;
     margin-left: 5%;
 }
-.ikonit{
+
+.ikonit {
     display: flex;
     justify-content: space-around;
 }
-.bundle{  /*MIKSI EI TOIMI*/
+
+.bundle img {
     width: 50%;
-    height: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
 }
-.pro{
-    width: 25%;
+#kaikkea{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.953);
 }
-footer{
+.pro {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.pro img{
+    width: 45%;
+}
+footer {
     order: 2;
 }
+
 @media (max-width:830px) {
     img#nimi {
         display: none;
     }
-    .tieto2{
+
+    .tieto2 {
         width: 100%;
     }
-    img#reyna{
+
+    img#reyna {
         display: none;
     }
+
     img#skinit {
         display: none;
     }
